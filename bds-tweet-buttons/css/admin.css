@@ -1,0 +1,88 @@
+/* 
+    Document   : admin
+    Created on : 25-sep-2013, 10:57:51
+    Author     : Bryan Slop (Sluijsens)
+    Description:
+        Styles for the admin pages
+*/
+
+/***************************
+        OPTIONS BOX
+***************************/
+.options-box {
+    height: auto;
+}
+
+.options-box .options-title {
+    display: block;
+    position: relative;
+    height: 26px;
+    
+    border-radius: 5px;
+    background-color: #bbbbbb;
+    
+    cursor: pointer;
+    
+    z-index: 15;
+}
+
+.options-box .options-title span {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    
+    padding: 5px;
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.options-box .options {
+    display: block;
+    position: relative;
+    height: auto;
+    
+    margin-top: -5px;
+    padding: 5px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    
+    border-radius: 5px;
+    background-color: #eeeeee;
+    
+    z-index: 10;
+}
+
+.options-box .options .options-content {
+    width: 98%;
+    
+    margin: 5px auto 0 auto;
+}
+
+.options-box .options div p {
+    display: inline-block;
+    width: 100%;
+}
+
+.options-box .options div p label {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.options-box .options select,
+.options-box .options input,
+.options-box .options textarea {
+    float: right;
+    width: 55%;
+}
+
+.options-box .options textarea {
+    height: 100px;
+    resize: none;
+}
+
+.right {
+    float: right;
+}
